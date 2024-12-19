@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Garamond&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Times+New+Roman:ital,wght@1,400&display=swap');
+
+/* Estilos para o corpo */
+body {
+    font-family: 'Garamond', serif;
+    padding: 0;
+}
+
+/* Estilos para o cabeçalho */
+.header-main {
+    text-align: center;
+    clear: both;
+}
+
+.initial-page-header {
+    display: flex;
+    margin-bottom: 10px;
+    padding: 0px 0;
+}
+
+.header-symbol {
+    flex: 1;
+    border-right: 1px solid #14a9ee;
+    padding-right: 10px;
+    text-align: right;
+}
+
+.header-heading {
+    flex: 2;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.journal-title {
+    font-size: 25pt;
+    font-weight: bold;
+    text-align: left;
+    padding-bottom: 5px;
+}
+
+.edition-info {
+    font-size: 16pt;
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+}
+
+.header-details {
+    flex: 1.5;
+    font-style: italic;
+    text-align: left;
+    font-size: 10pt;
+    border-left: 1px solid #14a9ee;
+}
+
+.header-details p {
+    padding-bottom: 5px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.header-details2 p {
+    border-top: 1px solid #14a9ee;
+    padding-top: 20px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.document-title {
+    text-align: center;
+    font-size: 16pt;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 12pt;
+    margin-bottom: -6pt;
+    border-bottom: 2px solid #000;
+}
+
+
+.guidelines-title {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
+    font-size: 12pt;
+    font-style: italic;
+}
+
+.author-note {
+    text-align: center;
+}
+
+.author-note span {
+    background-color: #ffff00;
+    font-weight: bold;
+}
+
+.main-heading {
+    text-align: center;
+    font-weight: bold;
+    background-color: transparent;
+    font-family: 'Garamond', serif;
+    display: inline;
+}
+
+.summary-table {
+    margin-top: -20px;
+    width: 100%;
+}
+
+.grid-layout2 {
+    margin-top: -17px;
+    margin-bottom: 30pt;
+}
+
+table {
+    border-collapse: separate;
+}
+
+.grid-layout,
+.structured-data {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+.grid-cell {
+    vertical-align: top;
+    border: 0.75pt #c0c0c0;
+    font-family: 'Garamond', serif;
+    font-size: 10pt;
+}
+
+.cell-data {
+    padding-right: 5.4pt;
+    padding-left: 5.4pt;
+    vertical-align: top;
+    border: 0.75pt solid #c0c0c0;
+    background-color: #ffffff;
+    font-family: 'Garamond', serif;
+    font-size: 10pt;
+}
+
+.cell-header {
+    border: solid 0.75pt;
+    background-color: #c0c0c0;
+    font-family: 'Garamond', serif;
+}
+
+.document-info {
+    font-family: 'Garamond', serif;
+    font-size: 11pt;
+    margin-bottom: -10pt;
+    margin-right: 20px;
+}
+
+.content-text {
+    font-family: 'Garamond', serif;
+    font-size: 11pt;
+}
+
+.author-image {
+    margin-right: 9pt;
+    margin-left: 9pt;
+    float: left;
+    position: relative;
+}
+
+.footer-main {
+    clear: both;
+}
+
+.page-number {
+    margin-bottom: 0pt;
+    text-align: right;
+}
+
+.emphasized-bold {
+    font-weight: bold;
+}
+
+.italicized {
+    font-style: italic;
+}
+
+.hyperlink-text {
+    text-decoration: none;
+}
+
+.list-circle,
+.numbered-list {
+    margin: 0pt;
+    padding-left: 0pt;
+}
+
+.list-text {
+    margin-left: 28.06pt;
+    margin-bottom: 0pt;
+    padding-left: 7.94pt;
+    font-family: 'Garamond', serif;
+    font-weight: normal;
+    font-size: 11pt;
+}
+
+.no-break-page {
+    page-break-after: avoid;
+}
+
+.table-heading {
+    text-align: center;
+    page-break-after: avoid;
+    font-weight: bold;
+    font-family: 'Garamond', serif;
+}
+
+.content-cell {
+    page-break-after: avoid;
+    font-size: 10pt;
+    font-family: 'Garamond', serif;
+}
+
+.centered-image {
+    text-align: center;
+}
+
+h1,
+.main-heading {
+    font-size: 14pt;
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+    border-bottom: 2px solid #000;
+    margin-top: 12pt;
+    margin-bottom: -6pt;
+    font-family: 'Garamond', serif;
+}
+
+h2 {
+    font-size: 12pt;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+    margin-top: 10pt;
+    margin-bottom: 3pt;
+    font-family: 'Garamond', serif;
+}
+
+h3 {
+    font-size: 12pt;
+    font-weight: bold;
+    margin-top: 3pt;
+    margin-bottom: 0pt;
+    font-family: 'Garamond', serif;
+}
+
+.summary-note {
+    font-weight: normal;
+    font-size: 10pt;
+    font-family: 'Garamond', serif;
+    text-align: left;
+}
+
+.summary-heading {
+    font-weight: bold;
+    font-size: 14pt;
+    text-align: left;
+    font-family: 'Garamond', serif;
+    margin-top: 20pt;
+}
+
+.highlight {
+    background-color: #ffff00;
+    font-weight: bold;
+    display: inline;
+}
+
+.underline-text {
+    text-decoration: underline;
+}
+
+.footer-main {
+    text-align: left;
+    font-family: 'Garamond', serif;
+    font-size: 10pt;
+    margin-top: 10px;
+}
+
+.segment {
+    text-align: left;
+    font-weight: bold;
+    font-family: 'Garamond', serif;
+    font-size: 10pt;
+    color: #a56108;
+}
+
+.initial-page-footer p {
+    margin: 5px 0;
+}
+
+@media print {
+    .initial-page-header {
+        position: relative;
+        top: 0;
+        width: 100%;
+    }
+
+    .initial-page-footer {
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        text-align: left;
+        font-family: 'Garamond', serif;
+        font-size: 10pt;
+        margin-top: 10px;
+        page-break-inside: avoid;
+    }
+
+    .content {
+        margin-top: 150px;
+        margin-bottom: 100px;
+    }
+
+    body {
+        orphans: 3;
+        widows: 3;
+    }
+
+    .author-name {
+        display: none;
+    }
+    @page {
+        size: A4;
+        margin: 6%;
+    }
+
+    @page :first {
+        @bottom-right {
+            content: none;
+        }
+
+        @top-right {
+            content: none;
+        }
+    }
+
+    @page :right {
+        @bottom-right {
+            content: counter(page);
+        }
+
+        @top-right {
+            content: "Author Last Name";
+        }
+    }
+
+    @page :left {
+        @bottom-left {
+            content: counter(page);
+        }
+
+        @top-left {
+            content: "Short Title";
+        }
+    }
+
+    .highlight {
+        background-color: #ffff00;
+        font-weight: bold;
+        display: inline;
+    }
+}
