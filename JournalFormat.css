@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Garamond&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Times+New+Roman:ital,wght@1,400&display=swap');
 
-/* Estilos para o corpo */
 body {
     font-family: 'Garamond', serif;
     padding: 0;
 }
 
-/* Estilos para o cabeçalho */
 .header-main {
     text-align: center;
     clear: both;
